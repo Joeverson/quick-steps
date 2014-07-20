@@ -1,0 +1,64 @@
+@import url(fonts.css); /* chamando estilo de fontes */
+
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	/*overflow: hidden;*/
+}
+#tela-principal{
+	background: url(../img/subtle-pattern-9.jpg);
+	height: 100%;
+}
+#tela-principal img{
+	margin:  0% 30%;
+	border-bottom: solid black 1px;
+}
+#tela-principal p{
+	font-family: 'Sketch';
+	font-size: 7em;
+	text-align: center;
+}
+#menu{
+	height:100%;
+	padding: 0 !important;
+}
+.menu-opcao{
+	height: 33.3%;
+	font-size: 7em;
+	padding: 40px 0 0 0;
+	text-align: center;
+	/*border-left:solid black 1px;*/
+	box-shadow: 0 0 10px -5px black;
+	font-family: 'Sketch';
+	cursor: pointer;
+}
+.menu-opcao:hover:first-child{
+	background-color: #66ff66;
+	/*text-shadow:0 0 0.3px black;*/
+}
+.menu-opcao:hover:nth-child(2){
+	background-color: #ff9933;
+	/*text-shadow:0 0 0.3px black;*/
+}
+.menu-opcao:hover:nth-child(3){
+	background-color: #99ccff;
+	/*text-shadow:0 0 0.3px black;*/
+}
+.progress{
+	margin-left: 25%;
+	width: 50%;
+	z-index: 3;
+	display:none;
+}
+.progress-bar{
+	webkit-transition:all 4s ease-in;
+	transition:all 4s ease-in;
+}
+
+/*---- efeitos estendidos ---- */
+.clicar:active{
+	webkit-transform:scale(0.95) !important;
+	transform:scale(0.95) !important;
+}

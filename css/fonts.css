@@ -1,0 +1,27 @@
+﻿@font-face {
+	font-family:"Sketch";
+	src:url("../fonts/Sketch_Block.eot?") format("eot"),
+		url("../fonts/Sketch_Block.woff") format("woff"),
+		url("../fonts/Sketch_Block.ttf") format("truetype"),
+		url("../fonts/Sketch_Block.svg#freeversionSketchBlock-Bold") format("svg");
+	font-weight:normal;
+	font-style:normal;
+}
+@font-face {
+	font-family:"ice";
+	src:url("../fonts/ICE_AGE.eot?") format("eot"),
+		url("../fonts/ICE_AGE.woff") format("woff"),
+		url("../fonts/ICE_AGE.ttf") format("truetype"),
+		url("../fonts/ICE_AGE.svg#iceagefont") format("svg");
+	font-weight:normal;
+	font-style:normal;
+}
+@font-face {
+	font-family:"Tire";
+	src:url("../fonts/tireshop_demo.eot?") format("eot"),
+		url("../fonts/tireshop_demo.woff") format("woff"),
+		url("../fonts/tireshop_demo.ttf") format("truetype"),
+		url("../fonts/tireshop_demo.svg#TireShopDemoVersion") format("svg");
+	font-weight:normal;
+	font-style:normal;
+}
