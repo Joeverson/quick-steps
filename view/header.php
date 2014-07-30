@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>QS -Quick Steps</title>
+    <meta charset="utf-8">
 	<link rel="Icon" type="image/png" href="img/dado.png">
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">

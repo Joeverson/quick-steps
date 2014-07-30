@@ -12,7 +12,8 @@ body{
 	height: 100%;
 }
 #tela-principal #logo{
-	margin:  0% 30%;
+	margin:  10% 0 10px 40%;
+	width: 200px;
 	cursor: pointer;
 	border-bottom: solid black 1px;
 	-ms-transition:all 0.2s ease-in;
@@ -26,7 +27,7 @@ body{
 	display: none;
 	position: fixed;	
 }
-#tela-principal #logo:hover{
+#tela-principal #logo:hover, .login img:hover{
 	opacity: 0.5 !important;
 }
 #tela-principal p{
@@ -37,6 +38,11 @@ body{
 #menu{
 	height:100%;
 	padding: 0 !important;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    -ms-transition: all 0.3s ease-in;
 }
 .menu-opcao{
 	height: 33.3%;
@@ -62,6 +68,11 @@ body{
 .menu-opcao:hover:nth-child(3){
 	background-color: #99ccff;
 	/*text-shadow:0 0 0.3px black;*/
+}
+#menu .close-page{
+    background-color: #ff9933;
+    cursor: pointer;
+    text-align: center;
 }
 .progress{
 	margin-left: 25%;
@@ -111,6 +122,9 @@ body{
 	border: solid 1px #ff9933;
 	box-shadow: 0 0 10px -1px #ff9933;
 }
+.login img{
+	margin: 10px 0 0 37%;
+}
 .tela-preta{
 	width: 100%;
 	height: 100%;
@@ -119,4 +133,29 @@ body{
 	opacity: 0.5;
 	left:0;
 	top: 0;
+}
+/* ----- style das notificações ---------- */
+.speechActive{
+    position:absolute;
+    width: 250px;
+    height: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: 0 0 0 40%;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px 0 0 0;
+    background-color: darkorchid;
+    z-index: 1000;
+    display: none;
+    box-shadow: 0 0 10px 0 black;
+    transition: all 1s ease-in;
+    -webkit-transition: all 1s ease-in;
+    -moz-transition: all 1s ease-in;
+    -o-transition: all 1s ease-in;
+    -ms-transition: all 1s ease-in;
+}
+.speechActive:after{
+    content: '';
+    background-color: red;
 }

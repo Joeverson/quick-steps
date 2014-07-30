@@ -6,7 +6,10 @@ desenvolvido por: joeverson santos
 $(function(){ // jquery onload
 
 // ----------- submit of form
-	
+
+    $('.close-page').on('click',function(){
+        actions.menu.close.take();
+    });
 
 	$('input').keydown(function(){
 		var key = event.keyCode;

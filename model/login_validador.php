@@ -16,8 +16,14 @@
 	$linha = false;
 	do{
 		// echo $linha['user'];
-		if($linha){ $_SESSION['login'] = true; }
-		else{ $_SESSION['login'] = false; }
+		if($linha){ 
+			$_SESSION['login'] = true;
+			$_SESSION['cor'] = 'green';
+		}
+		else{ 
+			$_SESSION['login'] = false;
+			$_SESSION['cor'] = 'red';
+		}
 
 	}while ($linha = $prep->fetch(PDO::FETCH_ASSOC));
 	
